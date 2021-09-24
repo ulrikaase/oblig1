@@ -3,11 +3,12 @@
     padding: 0;
     text-align: center;
     align-content: center;
+    color: white;
   }
 
 
   body{
-    background: beige;
+    background: #6A6B83;
   }
 
   .center {
@@ -16,6 +17,7 @@
     width: 60%;
     border: 5px solid gray;
     padding: 10px;
+    background-color: #533747;
   }
 
   marquee{
@@ -38,6 +40,10 @@
   }
 
   .vertical-menu a.active {
-      background-color: navy;
+      background-color: #76949F;
   }
 
+  .resume-box1 {
+      position: relative;
+      box-align: left;
+      border: 2px #86BBBD;

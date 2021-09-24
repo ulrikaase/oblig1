@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-content: center;
+  }
+
+
+  body{
+    background: beige;
+  }
+
+  .center {
+    margin: auto;
+    margin-top: 2%;
+    width: 60%;
+    border: 5px solid gray;
+    padding: 10px;
+  }
+
+  marquee{
+    position: relative;
+    top: calc(50vh - 50px);
+    font-size: 100px;
+    color: white;
+  }
+

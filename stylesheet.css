@@ -25,3 +25,19 @@
     color: white;
   }
 
+  .vertical-menu {
+    background-color: rgb(125, 93, 199);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .vertical-menu a:hover {
+      background-color: #ccc;
+  }
+
+  .vertical-menu a.active {
+      background-color: navy;
+  }
+

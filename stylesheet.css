@@ -1,14 +1,40 @@
 *{
-    margin: 0;
-    padding: 0;
+
+  @font-face {
+
+    font-family: Arial, Helvetica, sans-serif;
+  }
     text-align: center;
     align-content: center;
     color: white;
+    box-sizing: border-box;
   }
 
 
   body{
     background: #6A6B83;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  h1{
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 5px 5px 5px #363636;
+    }
+
+  h2{
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
+
+  p{
+    color: #000000;
+    line-height: 1.6rem;
+    text-align: left;
   }
 
   .center {
@@ -47,3 +73,58 @@
       position: relative;
       box-align: left;
       border: 2px #86BBBD;
+
+  }
+   
+    /* CSS for Portfoliosiden*/
+  .box{
+    max-width: 70ch;
+    margin-top: 1rem;
+    margin-bottom: 1 rem;
+    align-self: center;
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-right: 2em;
+    padding-left: 2em;
+    box-shadow: 3px 4px 20px #363636;
+  }
+
+  img{
+    width: min(100%, 40rem);
+    display: inline-block;
+  }
+
+  .box  span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .box > p{
+    line-height: 1.5em;
+    text-indent: 1em;
+  }
+
+  p::first-line{
+    font-weight: bold;
+  }
+
+  p::first-letter{
+    font-size: 4rem;
+    float: left;
+    margin-right: 0.5rem;
+    line-height: 1.1;
+  }
+
+  #box2 img{
+    float: left;
+    padding-right: 10px;
+  }
+
+  
+
+
+  
+
+
+ 

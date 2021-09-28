@@ -23,7 +23,7 @@
   }
 
   .footer .footer-bottom {
-    background-color: rgb(117, 112, 112);
+    background-color: rgb(218, 218, 218);
     color: rgb(0, 0, 0);
     height: 40px;
     width: 100%;
@@ -41,17 +41,16 @@
 
 
   body{
-    background: rgba(68, 152, 190, 0.452);
+    background: rgba(169, 206, 223, 0.582);
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
 
   }
   h1{
-   font-weight: bold;
+   font-weight:lighter;
    font-size: 3.6rem;
    text-align: center;
-   text-shadow: 3px 3px 3px #bfe2ff;
  
   }
   h2{
@@ -81,7 +80,7 @@
     display: inline-block;
     margin: 0;
     padding: 0;
-    margin-top: 25;
+    margin-top: 30;
     text-align: center;
     align-content: center;
     font-size: 25;
@@ -94,7 +93,7 @@
   }
 
   .vertical-menu a:hover {
-      background-color: rgb(195, 238, 255);
+      background-color: rgb(255, 255, 255);
       text-decoration: none;
       text-decoration-line: none;
   }
@@ -113,7 +112,7 @@
    
     /* CSS for Portfoliosiden*/
   .box{
-    background-color: #eaf7fda4;
+    background-color: rgb(226, 243, 255);
     max-width: 100ch;
     margin-top: 1rem;
     margin-bottom: 1 rem;
@@ -140,28 +139,89 @@
 
 
  /* CSS for forsiden*/
-  header {
-    background-color: rgb(226, 243, 255);
+    header {
+    background-color:rgb(226, 243, 255);
+    outline-color: white;
+    outline-style:solid;
+    outline-width: thick;
     text-align-last: center;
-    box-sizing: content-box;
     line-height:2.5;
-    outline: rgba(0, 82, 129, 0.589);
-    outline-width: thin;
-    outline-style:solid
-    margin
-  }
+    max-width: 120ch;
+    height: 950px;
+    padding-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30;
+    }
+      .overskrift{
+        letter-spacing: 0.5em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+      }
 
-  section{
-    text-align-last: center;
-    line-height: 2.5;
-  }
 
-  
+    article{
+      line-height: 2.5px;
+      background-image: url(images/depositphotos_113736410-stock-photo-architectural-drawings-with-floor-plan.jpg);
+      background-size:cover;
+      outline-color: white;
+      outline-style:solid;
+      outline-width: thick;
+      max-width: 120ch;
+      padding-top: 2em;
+      padding-bottom: 5%;
+      padding-right: 2em;
+      padding-left: 2em;
+      margin-top: 30;
+      margin-left: auto;
+      margin-right: auto;
+      align-content: center;
+      text-align-last: center;
+    }
 
-  ul {
-    list-style-type: style none;
-    margin: 0;
-    padding: 0;
-  }
+    .backgroundcolortext{
+      background-color: #ffffffda;
+      max-width: 80ch;
+      line-height: 1.5;
+      align-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 2em;
+      padding-bottom: 5%;
+      padding-right: 2em;
+      padding-left: 2em;
+      outline: rgb(0, 0, 0);
+      outline-width: medium;
+      outline-style: solid;
+    }
+
+      section{
+      line-height: 2.5px;
+      background-color: rgb(226, 243, 255);
+      outline-color: white;
+      outline-style:solid;
+      outline-width: thick;
+      padding-top: 50px;
+      padding-bottom: 5%;
+      max-width: 75ch;
+      max-height: 100ch;
+      margin-top: 30;
+      margin-left: auto;
+      margin-right: auto;
+      text-align-last: center;
+      align-items: center;
+      }
+      
+      ul{
+        list-style-type: circle;
+        line-height: 4;
+        list-style-position: inside;
+        padding: 0 0 0 20px; 
+        margin: 0; 
+      }
+
+
+
+
 
 

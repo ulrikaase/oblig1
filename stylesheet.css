@@ -51,14 +51,9 @@
    font-weight:lighter;
    font-size: 3.6rem;
    text-align: center;
-<<<<<<< Updated upstream
- 
-  }
-=======
    text-shadow: 3px 3px 3px #5e5d5d;
   }
    
->>>>>>> Stashed changes
   h2{
     font-weight: bold;
     font-size: 1.6rem;
@@ -112,12 +107,19 @@
       text-decoration-line: none;
   }
 
-  .resume-box1 {
+  .resume-left {
       position: relative;
       box-align: left;
-      border: 2px #86BBBD;
       min-height: 100%;
+      float: left;
+      max-width: 50%;
+      margin-right: 10%;
   }
+  .resume-right {
+    position: relative;
+    box-align: right;
+    min-height: 100%;
+}
    
     /* CSS for Portfoliosiden*/
 

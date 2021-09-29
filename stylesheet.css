@@ -52,8 +52,14 @@
    font-weight:lighter;
    font-size: 3.6rem;
    text-align: center;
+<<<<<<< Updated upstream
  
   }
+=======
+   text-shadow: 3px 3px 3px #5e5d5d;
+  }
+   
+>>>>>>> Stashed changes
   h2{
     font-weight: bold;
     font-size: 1.6rem;

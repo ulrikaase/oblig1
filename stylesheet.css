@@ -39,7 +39,6 @@
     min-height: 100%;
   }
 
-
   body{
     background: rgba(169, 206, 223, 0.582);
     font-size: 1rem;
@@ -115,19 +114,17 @@
   }
    
     /* CSS for Portfoliosiden*/
-  .box{
-    background-color: rgb(226, 243, 255);
-    max-width: 100ch;
-    margin-top: 1rem;
-    margin-bottom: 1 rem;
-    align-self: center;
-    padding-top: 0;
-    padding-bottom: 5%;
-    padding-right: 2em;
-    padding-left: 2em;
-    box-shadow: 3px 4px 20px #363636;
-    margin: auto;
-  }
+
+    .box{
+      background-color: rgb(226, 243, 255);
+      max-width: 120ch;
+      height: 950px;
+      padding-top: 2em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50;
+      box-shadow: 3px 4px 20px #363636;
+    }
 
   img{
     width: min(100%, 40rem);
@@ -141,50 +138,35 @@
     font-style: italic;
   }
 
-  
+  .box#article{
+    background-image: url(images/depositphotos_113736410-stock-photo-architectural-drawings-with-floor-plan.jpg);
+    background-size:cover;
+  }
+
+  .box#liste{
+    background-image: url(images/IMG_1946.jpg);
+    box-shadow: black;
+  }
+
 
  /* CSS for forsiden*/
+
     header {
-    background-color:rgb(226, 243, 255);
-    outline-color: white;
-    outline-style:solid;
-    outline-width: thick;
     text-align-last: center;
-    max-width: 120ch;
-    height: 950px;
-    padding-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50;
     }
 
-      .headingFrontpage{
-        letter-spacing: 1em;
-        font-weight: lighter;
-        text-transform: uppercase;
-      }
-
-      .subheadingFrontpage{
-        letter-spacing: 0.1em;
-        font-stretch: expanded;
-        font-weight: lighter;
-        padding-bottom: 40;
-      }
-
-    article{
-      background-image: url(images/depositphotos_113736410-stock-photo-architectural-drawings-with-floor-plan.jpg);
-      background-size:cover;
-      outline-color: white;
-      outline-style:solid;
-      outline-width: thick;
-      max-width: 120ch;
-      padding-top: 2em;
-      padding-bottom: 5%;
-      margin-top: 30;
-      margin-left: auto;
-      margin-right: auto;
-      align-items: center;
+   .headingFrontpage{
+     letter-spacing: 1em;
+     font-weight: lighter;
+     text-transform: uppercase;
     }
+
+    .subheadingFrontpage{
+      letter-spacing: 0.1em;
+      font-stretch: expanded;
+      font-weight: lighter;
+      padding-bottom: 40;
+      }
 
       .articleText{
         background-color: #ffffffda;
@@ -193,29 +175,15 @@
         text-align-last: center;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 2em;
-        padding-bottom: 5%;
-        padding-right: 2em;
-        padding-left: 2em;
+        padding-top: 50;
+        padding-bottom: 50;
         outline: rgb(0, 0, 0);
         outline-width: medium;
-        outline-style: solid;
-    }
+        outline-style: solid; 
+      }
 
       section{
       line-height: 2.5px;
-      background-image: url(images/IMG_1946.jpg);
-      background-size: cover;
-      outline-color: white;
-      outline-style:solid;
-      outline-width: thick;
-      padding-top: 50px;
-      padding-bottom: 5%;
-      max-width: 90ch;
-      max-height: 100ch;
-      margin-top: 30;
-      margin-left: auto;
-      margin-right: auto;
       text-align-last: center;
       }
       

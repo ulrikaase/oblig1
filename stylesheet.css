@@ -22,7 +22,7 @@
   }
   .footer .footer-content .footer-section {
     flex: 1;
-    padding: 20 px;
+    padding: 20px;
     text-align-last: center;
   }
 
@@ -32,8 +32,8 @@
     color: rgb(0, 0, 0);
     height: 40px;
     left: 0;
-    position: absolute;
     padding-top: 10px;
+    position: absolute;
     text-align-last: center;
     width: 100%;
   }
@@ -44,26 +44,25 @@
 
   body{
     background: rgb(198, 221, 238);
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
   }
   h1{
-   font-weight:lighter;
-   font-size: 3.6rem;
-   text-align: center;
-   text-shadow: 3px 3px 3px #5e5d5d;
+    font-size: 3.6rem;
+    font-weight:lighter;
+    text-align: center;
+    text-shadow: 3px 3px 3px #5e5d5d;
   }
    
   h2{
-    font-weight: bold;
     font-size: 1.6rem;
+    font-weight: bold;
     line-height: 1.7;
   }
   h3{
-    font-weight: bold;
     font-size: 1rem;
+    font-weight: bold;
     text-align: center;
   }
 
@@ -79,23 +78,23 @@
   } 
 
   .vertical-menu {
+    align-content: center;
     display: inline-block;
     font-size: 20pt;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
     margin-top: 20px;
-    padding-top: 20px;
+    padding: 0;
     padding-bottom: 10px;
+    padding-top: 20px;
     text-align: center;
-    align-content: center;
     text-transform: uppercase;
   }
 
   a{
-    text-decoration: unset;
-    padding-right: 40px;
     padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: unset;
   }
 
   a:hover {
@@ -115,19 +114,18 @@
   }
 
   .resume-left {
-      position: relative;
-      box-align: left;
-      min-height: 100%;
-      float: left;
-      max-width: 50%;
-      margin-right: 10%;
-      overflow: visible;    
-        
+    box-align: left;
+    float: left;
+    margin-right: 10%;
+    max-width: 50%;
+    min-height: 100%;
+    overflow: visible;
+    position: relative;  
   }
   .resume-right {
-    position: relative;
     box-align: right;
     min-height: 100%;
+    position: relative;
 }
    
     /* CSS for Portfoliosiden*/
@@ -136,10 +134,10 @@
       background-color: rgb(226, 243, 255);
       box-shadow: 3px 4px 20px #363636;
       height: 950px;
-      max-width: 120ch;
       margin-left: auto;
       margin-right: auto;
       margin-top: 50;
+      max-width: 120ch;
       padding: 2% 10% 2% 10%;
     }
 
@@ -150,8 +148,8 @@
   }
 
   .box  span{
-    font-weight: bold;
     font-style: italic;
+    font-weight: bold;
     text-transform: uppercase;
   }
 
@@ -160,26 +158,26 @@
 
   header {
    line-height: 1;
-   padding-top: 50px;
    padding-bottom: 50px; 
+   padding-top: 50px;
    text-align-last: center;
   }
 
   .h1Frontpage{
-   font-weight: normal;
-   font-size: 45pt;
-   letter-spacing: 0.4em;
-   padding-top: 40px;
-   padding-bottom: 10px;
-   text-transform: uppercase;
-   text-shadow: none;
+    font-size: 45pt;
+    font-weight: normal;
+    letter-spacing: 0.4em;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    text-shadow: none;
+    text-transform: uppercase;
   }
 
   .pFrontpage{
-   font-stretch: expanded;
-   font-weight: lighter;
-   font-size: 17pt;
-   padding-bottom: 40px;
+    font-size: 17pt;
+    font-stretch: expanded;
+    font-weight: lighter;
+    padding-bottom: 40px;
   }
 
   #header{
@@ -195,14 +193,11 @@
     text-align-last: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
     margin-top: 50px;
     outline: rgb(133, 133, 133);
-    outline-width: medium;
     outline-style: solid;
+    outline-width: medium;
+    padding: 50px;
   }
 
   #aboutme{
@@ -224,16 +219,16 @@
   }
 
   ul{
+    line-height: 2;
     list-style-type: circle;
     list-style-position: inside;
-    line-height: 2;
     margin: 0;
     padding: 20px; 
   }
   
   ul li li{
-    list-style-type: disc;
     line-height: 2;
+    list-style-type: disc;
   }
 
   .album{

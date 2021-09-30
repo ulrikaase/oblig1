@@ -1,23 +1,24 @@
 *{
-    text-align: center;
+    
     align-content: center;
     box-sizing: border-box;
+    text-align: center;
   }
 
   footer {
     background-color:rgb(226,243,255);
     color: white;
-    position:relative;
     height: 200px; 
     margin-top: 5%;
-    
+    position:relative;
+     
   }
 
   .footer .footer-content{
-    height: 160px;
-    display: flex;
     color:black;
-    
+    display: flex;
+    height: 160px;
+  
   }
   .footer .footer-content .footer-section {
     flex: 1;
@@ -27,15 +28,14 @@
 
   .footer .footer-bottom {
     background-color: rgb(255, 255, 255);
+    bottom: 0;
     color: rgb(0, 0, 0);
     height: 40px;
-    width: 100%;
-    text-align-last: center;
+    left: 0;
     position: absolute;
-    bottom: 0px;
-    left: 0px;
     padding-top: 10px;
-
+    text-align-last: center;
+    width: 100%;
   }
 
   .page-wrapper {
@@ -74,8 +74,8 @@
 
   .center {
     margin: auto;
-    width: 60%;
     padding: 10px;
+    width: 60%;
   } 
 
   .vertical-menu {
@@ -104,7 +104,7 @@
       text-decoration-line: none;
   }
 
-  a.active {
+  .active {
       background-color: #d4f4ff;
       text-decoration: none;
       text-decoration-line: none;
@@ -134,63 +134,58 @@
 
     .box{
       background-color: rgb(226, 243, 255);
-      max-width: 120ch;
+      box-shadow: 3px 4px 20px #363636;
       height: 950px;
-      padding-top: 2%;
-      padding-bottom: 2%;
+      max-width: 120ch;
       margin-left: auto;
       margin-right: auto;
       margin-top: 50;
-      box-shadow: 3px 4px 20px #363636;
-      padding-right: 10%;
-      padding-left: 10%;
-      
+      padding: 2% 10% 2% 10%;
     }
 
   img{
-    width: min(100%, 40rem);
     display: inline-block;
     padding-bottom: 5%;
-    
+    width: min(100%, 40rem);
   }
 
   .box  span{
-    text-transform: uppercase;
     font-weight: bold;
     font-style: italic;
+    text-transform: uppercase;
   }
 
 
  /* CSS for forsiden*/
 
   header {
-   text-align-last: center;
-   padding-top: 50px;
-   padding-bottom: 50px;
    line-height: 1;
+   padding-top: 50px;
+   padding-bottom: 50px; 
+   text-align-last: center;
   }
 
   .h1Frontpage{
-   letter-spacing: 0.4em;
    font-weight: normal;
    font-size: 45pt;
-   text-transform: uppercase;
-   text-shadow: none;
+   letter-spacing: 0.4em;
    padding-top: 40px;
    padding-bottom: 10px;
+   text-transform: uppercase;
+   text-shadow: none;
   }
 
   .pFrontpage{
    font-stretch: expanded;
    font-weight: lighter;
-   padding-bottom: 40px;
    font-size: 17pt;
+   padding-bottom: 40px;
   }
 
-  .box#header{
-    padding-bottom: 100px;
-    margin-bottom: 50px;
+  #header{
     height: min-content;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
   }
 
   .aboutmeText{
@@ -210,7 +205,7 @@
     outline-style: solid;
   }
 
-  .box#aboutme{
+  #aboutme{
     background-image: url(images/tegninger.jpg);
     background-size: cover;
     height: 67ch;
@@ -221,7 +216,7 @@
     text-align-last: left;
   }
 
-  .box#liste{
+  #liste{
     background-image: url(images/Hiking.jpg);
     background-size: cover;
     height: 600px;
@@ -232,8 +227,8 @@
     list-style-type: circle;
     list-style-position: inside;
     line-height: 2;
+    margin: 0;
     padding: 20px; 
-    margin: 0;  
   }
   
   ul li li{
@@ -242,19 +237,19 @@
   }
 
   .album{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
     color: black;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;   
   }
 
   /* CSS for footer*/
 .fa {
-  padding: 20px;
   font-size: 30px;
-  width: 50px;
+  padding: 20px; 
   text-align: center;
   text-decoration: none;
+  width: 50px;
 }
 
 .fa:hover {

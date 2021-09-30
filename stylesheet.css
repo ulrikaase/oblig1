@@ -22,6 +22,7 @@
   .footer .footer-content .footer-section {
     flex: 1;
     padding: 20 px;
+    text-align-last: center;
   }
 
   .footer .footer-bottom {
@@ -29,7 +30,7 @@
     color: rgb(0, 0, 0);
     height: 40px;
     width: 100%;
-    text-align: center;
+    text-align-last: center;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -120,9 +121,7 @@
       float: left;
       max-width: 50%;
       margin-right: 10%;
-      overflow: visible;
-      
-        
+      overflow: visible;    
         
   }
   .resume-right {

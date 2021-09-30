@@ -1,1 +1,1 @@
-Link to project on GitHub: www.ulrikaase.github.io
+Link to project on GitHub: https://ulrikaase.github.io/

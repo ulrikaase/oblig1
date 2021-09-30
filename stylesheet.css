@@ -210,7 +210,7 @@
     outline-style: solid;
   }
 
-  .box#aboutme{
+  .box#aboutmeBox{
     background-image: url(images/tegninger.jpg);
     background-size: cover;
     height: 67ch;
@@ -221,7 +221,7 @@
     text-align-last: left;
   }
 
-  .box#liste{
+  .box#listeBox{
     background-image: url(images/Hiking.jpg);
     background-size: cover;
     height: 600px;

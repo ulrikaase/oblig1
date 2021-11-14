@@ -5,42 +5,7 @@
     text-align: center;
   }
 
-  footer {
-    background-color:rgb(226,243,255);
-    color: white;
-    height: 200px; 
-    margin-top: 5%;
-    position:relative;
-     
-  }
-
-  .footer .footer-content{
-    color:black;
-    display: flex;
-    height: 160px;
-  
-  }
-  .footer .footer-content .footer-section {
-    flex: 1;
-    padding: 20px;
-    text-align-last: center;
-  }
-
-  .footer .footer-bottom {
-    background-color: rgb(255, 255, 255);
-    bottom: 0;
-    color: rgb(0, 0, 0);
-    height: 40px;
-    left: 0;
-    padding-top: 10px;
-    position: absolute;
-    text-align-last: center;
-    width: 100%;
-  }
-
-  .page-wrapper {
-    min-height: 100%;
-  }
+/* CSS body */
 
   body{
     background: rgb(198, 221, 238);
@@ -77,6 +42,8 @@
     width: 60%;
   } 
 
+  /* CSS for menylinje */
+
   .vertical-menu {
     align-content: center;
     display: inline-block;
@@ -112,21 +79,6 @@
   a:visited{
     color: #000000;
   }
-
-  .resume-left {
-    box-align: left;
-    float: left;
-    margin-right: 10%;
-    max-width: 50%;
-    min-height: 100%;
-    overflow: visible;
-    position: relative;  
-  }
-  .resume-right {
-    box-align: right;
-    min-height: 100%;
-    position: relative;
-}
    
     /* CSS for Portfoliosiden*/
 
@@ -239,6 +191,40 @@
   }
 
   /* CSS for footer*/
+
+  footer {
+    background-color:rgb(226,243,255);
+    color: white;
+    height: 200px; 
+    margin-top: 5%;
+    position:relative;
+     
+  }
+
+  .footer .footer-content{
+    color:black;
+    display: flex;
+    height: 160px;
+  
+  }
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 20px;
+    text-align-last: center;
+  }
+
+  .footer .footer-bottom {
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    left: 0;
+    padding-top: 10px;
+    position: absolute;
+    text-align-last: center;
+    width: 100%;
+  }
+
 .fa {
   font-size: 30px;
   padding: 20px; 
@@ -270,7 +256,25 @@
 }
 
 
+@media only screen and (max-width: 960px) and (min-width: 600px) {
 
+  a{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  a{
+    display: block;
+    display: list-item;
+    
+  }
+
+}
 
 
 
